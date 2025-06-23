@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.PenjualanKopi" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/coffee_brown_primary</item>
+        <item name="colorPrimaryVariant">@color/coffee_brown_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_orange</item>
+        <item name="colorSecondaryVariant">@color/accent_orange</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/background_app</item>
+    </style>
+
+    <style name="Theme.PenjualanKopi" parent="Base.Theme.PenjualanKopi" />
+</resources>
